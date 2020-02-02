@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "City": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Region": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Address": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Supplier": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Account": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Physician": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Patient": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Appointment": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Student": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Course": {
+    "dataSource": "db",
+    "public": true
+  },
+  "CourseStudent": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Assembly": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Part": {
+    "dataSource": "db",
+    "public": true
+  },
+  "AssemblyPart": {
+    "dataSource": "db",
+    "public": true
+  }
+}

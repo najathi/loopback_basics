@@ -1,0 +1,27 @@
+{
+  "name": "Region",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "cityId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "city": {
+      "type": "belongsTo",
+      "model": "City",
+      "foreignKey": "cityId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
