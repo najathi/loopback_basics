@@ -94,5 +94,9 @@
   "AssemblyPart": {
     "dataSource": "db",
     "public": true
+  },
+  "defaultSmaple": {
+    "dataSource": "db",
+    "public": true
   }
 }
